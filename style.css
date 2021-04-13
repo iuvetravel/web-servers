@@ -80,14 +80,29 @@
 #about .btn {
   margin-top: 20px;
   margin-bottom: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
 }
 
 .about-content {
   padding-top: 20px;
+  font-weight: 100;
+  font-size: 1.5em;
 }
 
 .col-md-6 {
-  margin-top: 10px;
+  margin-top: 5px;
+}
+
+.skills-bar p {
+  margin-top: 35px;
+  margin-bottom: 6px;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.skills-bar h2 {
+  font-size: 3em;
 }
 
 /* ----------------Media------------------- */
@@ -112,5 +127,11 @@
     color: #fff;
     font-size: 1em;
     background-color: #929496;
+  }
+  .col-md-6 {
+    text-align: center;
+  }
+  #about h2 {
+    font-size: 3em;
   }
 }
