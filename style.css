@@ -139,7 +139,7 @@
 
 .icon .fas::after {
   content: "";
-  background: #2566af;
+  background: #6382a5;
   display: block;
   height: 1px;
   width: 100px;
@@ -148,11 +148,15 @@
 
 .text-center p::after {
   content: "";
-  background: #2566af;
+  background: #6382a5;
   display: block;
   height: 3px;
   width: 240px;
   margin: 10px auto 5px;
+}
+
+.text-center p {
+  color: #6382a5;
 }
 
 .container h3 {
