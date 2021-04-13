@@ -306,31 +306,27 @@ h1::after {
 /* Price Plans Section */
 
 #price {
-  background: #dfe2e6;
+  background: #efefef;
   padding: 40px 0;
 }
 
 .single-price {
-  margin-top: 10px auto;
+  margin: 10px auto;
   display: inline;
   float: left;
   width: 100%;
-
-  background: #87b5ec;
+  background-color: #fff;
   transition: 1s;
 }
+
 .single-price:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.price-head h2 {
-  color: #f0d852;
-  text-transform: uppercase;
-  font-size: 3em;
-  background-color: #5d6b7c;
-  margin-bottom: 0;
+.price-head {
+  background-color: #2196f3;
   display: inline;
   float: left;
   padding: 10px 5px;
@@ -338,22 +334,54 @@ h1::after {
   width: 100%;
 }
 
-.price-head p {
-  color: #c4c8cc;
+.price-head h2 {
+  color: #fff;
+  font-size: 2em;
   font-weight: bold;
-  font-size: 1.5em;
-  background-color: #5d6b7c;
-  margin-top: 0;
-  padding-bottom: 5px;
-  display: inline;
-  float: left;
-  /* padding: 10px 5px; */
-  text-align: center;
-  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-transform: uppercase;
 }
 
-#price .row {
-  border-radius: 20px;
+.price-head p {
+  font-size: 1.5em;
+  text-align: center;
+  color: #ccc;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+#price span {
+  font-size: 0.8em;
+  font-weight: 200;
+}
+
+.price-content {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.price-content ul li {
+  border-bottom: 1px solid #efefef;
+  padding: 15px 10px;
+  list-style: none;
+}
+ul li:last-child {
+  border: none;
+}
+
+.fa-times-circle {
+  color: red;
+  margin-right: 10px;
+  font-size: 2em;
+}
+
+.fa-check-circle {
+  color: green;
+  margin-right: 10px;
+  font-size: 2em;
 }
 
 /* End Price Plans Section  */
@@ -409,5 +437,9 @@ h1::after {
   }
   .container p {
     text-align: center;
+  }
+  .price-content ul li {
+    font-size: 1.6em;
+    padding-top: 5px;
   }
 }
