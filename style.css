@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar-brand img {
+  height: 60px;
+  padding: 0px;
+  margin: 0;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #929496;
+  float: right;
+  text-align: left;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+#nav-bar ul li a:hover {
+  color: #2566af !important;
+  font-weight: 600;
+}
+
+.navbar {
+  background: #dfe2e6;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.nav-link {
+  color: #929496 !important;
+  font-weight: 100;
+  font-size: 1em;
+}
+/* Slider */
+#slider {
+  width: 100%;
+}
+
+/* .carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial !important;
+} */
+
+.carousel-caption h5 {
+  font-size: 5em;
+  color: #f4f7fc;
+  padding-bottom: 2.6em;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+#headerSlider button {
+  width: 150px;
+  height: auto;
+  color: #fff;
+  font-size: 2em;
+  background-color: #929496;
+}
+
+/* --------------About Home Page------------ */
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #929496;
+}
+
+#about .btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  padding-top: 20px;
+}
+
+.col-md-6 {
+  margin-top: 10px;
+}
+
+/* ----------------Media------------------- */
+@media (max-width: 600px) {
+  .navbar-nav li a {
+    font-size: 1.5em;
+    line-height: 2.2em;
+  }
+  .carousel-caption h5 {
+    font-size: 1.5em;
+    color: #f4f7fc;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 6px #000000;
+  }
+  .carousel-indicators button {
+    margin-bottom: 10px;
+    width: 20px;
+  }
+
+  #headerSlider button {
+    width: 70px;
+    color: #fff;
+    font-size: 1em;
+    background-color: #929496;
+  }
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <title>Web Services</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="img/logo1.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Price Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- End Navigation -->
+    <!-- Slider -->
+
+    <div id="slider">
+      <div id="headerSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#headerSlider"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#headerSlider"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#headerSlider"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/01.jpg" class="d-block img-fluid" alt="..." />
+            <div class="carousel-caption">
+              <h5>How To Host A Website</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/02.jpg" class="d-block img-fluid" alt="..." />
+            <div class="carousel-caption">
+              <h5>Affordable Hosting On Cloud</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/03.jpg" class="d-block img-fluid" alt="..." />
+            <div class="carousel-caption">
+              <h5>Serverside Implementation</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#headerSlider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#headerSlider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- End Slider -->
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About Us</h2>
+            <div class="about-content">
+              Web Cruiser is dedicated to providing the best VPS hosting,
+              Dedicated Servers and colocation hosting. We pride our self on not
+              over stacking our host servers so that clients have the best
+              performance possible. We have seen other companies completely
+              overpopulate their host servers which causes sluggish performance
+              you don’t need. We’ve worked hard to develop a great platform so
+              you can take advantage of our time and servers so your
+              applications don’t struggle.
+            </div>
+            <button type="button" class="btn btn-primary">Read More</button>
+          </div>
+          <div class="col-md-6">
+            <h2>Weekly Updates</h2>
+            <p>Virtual Servers Upload</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+            <p>VPS Servers workload</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 40%">40%</div>
+            </div>
+            <p>Number of sites dedicated</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 65%">65%</div>
+            </div>
+            <p>Discount per week</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 32%">32%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
