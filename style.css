@@ -105,14 +105,6 @@
   font-size: 3em;
 }
 
-.progress-bar {
-  border-radius: 20px;
-}
-
-.progress {
-  border-radius: 20px;
-}
-
 /* ----------------Media------------------- */
 @media (max-width: 600px) {
   .navbar-nav li a {
