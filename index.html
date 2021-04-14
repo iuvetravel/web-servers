@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -40,62 +41,62 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link js-scroll-trigger"
                   aria-current="page"
                   href="#slider"
                   data-toggle="collapse"
-                  data-target=".navbar-collapse.in"
+                  data-target=".navbar-collapse.show"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link js-scroll-trigger"
                   href="#about"
                   data-toggle="collapse"
-                  data-target=".navbar-collapse.in"
+                  data-target=".navbar-collapse.show"
                   >Features</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link js-scroll-trigger"
                   href="#services"
                   data-toggle="collapse"
-                  data-target=".navbar-collapse.in"
+                  data-target=".navbar-collapse.show"
                   >Services</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link js-scroll-trigger"
                   href="#price"
                   data-toggle="collapse"
-                  data-target=".navbar-collapse.in"
+                  data-target=".navbar-collapse.show"
                   >Price Plans</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link js-scroll-trigger"
                   href="#team"
                   data-toggle="collapse"
-                  data-target=".navbar-collapse.in"
+                  data-target=".navbar-collapse.show"
                   >Our Team</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link js-scroll-trigger"
                   href="#testimonials"
                   data-toggle="collapse"
-                  data-target=".navbar-collapse.in"
+                  data-target=".navbar-collapse.show"
                   >Testimonials</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link js-scroll-trigger"
                   href="#contact"
                   data-toggle="collapse"
                   data-target=".navbar-collapse.in"
@@ -641,5 +642,10 @@
       integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript">
+      $(".js-scroll-trigger").click(function () {
+        $(".navbar-collapse").collapse("hide");
+      });
+    </script>
   </body>
 </html>
