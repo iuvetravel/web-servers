@@ -1,3 +1,15 @@
+var toggleMenu = function () {
+  var burger = $(".hamburger-box");
+  var overlay = $("#overlay");
+  var menu = $(".js-nav").parent().find(".menu");
+
+  burger.toggleClass("active");
+  menu.toggleClass("active");
+  overlay.toggle();
+};
+
+$(".hamburger-box, .js-nav a").on("click", toggleMenu);
+
 //Get the button
 var mybutton = document.getElementById("myBtn");
 
