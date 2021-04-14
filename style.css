@@ -527,8 +527,8 @@ blockquote::after {
 
 #contact {
   background: #efefef;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #777;
 }
 
@@ -549,9 +549,15 @@ blockquote::after {
   padding: 7px;
   margin: 10px;
 }
-.contact-info .fab,
-.fas {
-  font-size: 1em;
+.follow .fas {
+  font-size: 1.2em;
+  margin: 7px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.follow .fab {
+  font-size: 1.2em;
   margin: 10px;
   color: #007bff;
   font-weight: bold;
@@ -621,7 +627,7 @@ blockquote::after {
 #footer .container-fluid {
   margin: 0;
   padding: 0;
-  background-color: #929496 !important;
-  color: #fff;
+  background-color: #dfe2e6 !important;
+  color: #2566af;
   text-align: center;
 }
