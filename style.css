@@ -618,9 +618,10 @@ blockquote::after {
 }
 
 /* Footer */
-.container-fluid {
+#footer .container-fluid {
   margin: 0;
   padding: 0;
   background-color: #929496 !important;
   color: #fff;
+  text-align: center;
 }
