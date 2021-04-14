@@ -563,6 +563,10 @@ blockquote::after {
   font-weight: bold;
 }
 
+.contact-info .follow strong {
+  color: #333;
+}
+
 /* End Get in Touch Section */
 
 /* ----------------Media------------------- */
