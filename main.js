@@ -1,14 +1,5 @@
 // Menu collapse
 
-$(function () {
-  var navMain = $(".navbar-collapse"); // avoid dependency on #id
-  // "a:not([data-toggle])" - to avoid issues caused
-  // when you have dropdown inside navbar
-  navMain.on("click", "a:not([data-toggle])", null, function () {
-    navMain.collapse("hide");
-  });
-});
-
 //Get the button
 var mybutton = document.getElementById("myBtn");
 
@@ -52,12 +43,12 @@ function topFunction() {
     topOnEmptyHash: true,
 
     // Speed & Duration
-    speed: 500,
+    speed: 1000,
     speedAsDuration: false,
     durationMax: null,
     durationMin: null,
     clip: true,
-    offset: 0,
+    offset: 50,
 
     // Easing
     easing: "easeInOutCubic",
