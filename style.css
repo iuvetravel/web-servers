@@ -523,6 +523,42 @@ blockquote::after {
 }
 /* <!-- --- End Testimonials --- --> */
 
+/* Get in Touch Section */
+
+#contact {
+  background: #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #777;
+}
+
+.contact-form {
+  padding: 15px;
+}
+.form-control {
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+::placeholder {
+  color: #999 !important;
+}
+
+.follow {
+  background: #fff;
+  padding: 7px;
+  margin: 10px;
+}
+.contact-info .fab,
+.fas {
+  font-size: 1em;
+  margin: 10px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* End Get in Touch Section */
+
 /* ----------------Media------------------- */
 @media (max-width: 600px) {
   .navbar-nav li a {
@@ -579,4 +615,12 @@ blockquote::after {
     font-size: 1.6em;
     padding-top: 5px;
   }
+}
+
+/* Footer */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  background-color: #929496 !important;
+  color: #fff;
 }
