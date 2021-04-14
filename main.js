@@ -1,14 +1,13 @@
-var toggleMenu = function () {
-  var burger = $(".navbar-toggler-icon");
-  var overlay = $("#overlay");
-  var menu = $(".js-nav").parent().find(".menu");
+// Menu collapse
 
-  burger.toggleClass("active");
-  menu.toggleClass("active");
-  overlay.toggle();
-};
-
-$(".navbar-toggler-icon, .js-nav a").on("click", toggleMenu);
+$(function () {
+  var navMain = $(".navbar-collapse"); // avoid dependency on #id
+  // "a:not([data-toggle])" - to avoid issues caused
+  // when you have dropdown inside navbar
+  navMain.on("click", "a:not([data-toggle])", null, function () {
+    navMain.collapse("hide");
+  });
+});
 
 //Get the button
 var mybutton = document.getElementById("myBtn");
